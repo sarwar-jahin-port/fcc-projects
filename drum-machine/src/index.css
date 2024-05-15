@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#display {
+  border: 1px solid red;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+.drum-pads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.drum-pad {
+  padding: 20px 30px;
+}
+.status {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
